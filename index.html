@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  
+  <nav id="desktop-nav">
+    <div class="logo">AKRAMULLA KHAN</div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
+    </ul>
+
+  </nav>
+  
+  <nav id="hamburger-nav">
+
+    <div class="logo">AKRAMULLA KHAN</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <div class="menu-links">
+
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+
+    <div class="section__pic-container1">
+      <img src="./asserts/passPic.jpg" alt="akram profile pic">
+    </div>
+
+    <div class="section__text">
+      <p class="section__text__p1">Hello,I'm</p>
+      <div class="title">AKRAM</div>
+      <p class="section__text__p2">Java Full Stack Developer</p>
+      <div class="btn-container">
+          <button 
+          class="btn btn-color-2" 
+          onclick="window.open('./asserts/resume-resume.pdf')">
+          Download CV
+        </button>
+
+          <button 
+          class="btn btn-color-1" 
+          onclick="location.href ='./#contact'">
+          Contact info
+        </button>
+
+      </div>
+
+      <div id="socials-container">
+        <img 
+        src="./asserts/linkedin.png"
+        alt="my Linkedin Profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/patan-akramulla-khan-a905901b6'"
+        >
+        <img 
+        src="./asserts/github.png"
+        alt="my github Profile" 
+        class="icon" 
+        onclick="location.href='https://github.com/patanakramullakhan'"
+        >
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get to Know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+
+      <div class="section__pic-container">
+        <img src="./asserts/ak.jpg"
+         alt="profile picture" 
+         class="about-pic"
+         />
+      </div>
+      <div class="about-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <img 
+            src="./asserts/experience.png" 
+            alt="fresher icon"
+            class="icon"
+            >
+            <h3>Fresher</h3>
+            <p><br> having a good knowlewdge java full Stack</p>
+          </div>
+          <div class="details-container">
+            <img 
+            src="./asserts/education.png" 
+            alt="education icon"
+            class="icon"
+            >
+            <h3>Education</h3>
+            <p>Electronic's & Communication Engineering<br>2019-2023</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Greetings! I'm Akram;, an enthusiastic electronics student with a fervent passion for software development and technology. With a solid foundation in electronics and a keen interest in programming, I've honed my skills in various areas of software development, specializing in Java, Spring Boot, microservices architecture, React.js, HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            What excites me most about software development is the opportunity to solve real-world problems and create impactful solutions that enhance people's lives. Whether it's optimizing performance, streamlining processes, or building intuitive interfaces, I thrive on the challenge of turning ideas into reality through code.
+          </p>
+          <p>
+            If you're looking for a dedicated and versatile software developer with a passion for innovation, I'd love to connect and explore how we can work together to bring your ideas to life. Let's embark on this journey of discovery and creation together!
+          </p>
+          
+        </div>
+      </div>
+
+    </div>
+    <img src="./asserts/arrow.png" 
+    alt=""
+    class="icon arrow-icon"
+    onclick="location.href='./#skills'">
+  </section>
+
+  <section id="skills">
+
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skill-details-container">
+      <div class="about-container">
+        <div class="details-container">
+          <h2 class="skill-sub-title">Frontend Developer</h2>
+          <div class="article-container">
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>Java Script</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>Boot strap</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>REACT JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <!-- <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>BOOT STRAP</h3>
+                <p>Intermediate</p>
+              </div>
+            </article> -->
+
+          </div>
+          
+        </div>
+
+        <div class="details-container">
+          <h2 class="skill-sub-title">Backend Technologies</h2>
+          <div class="article-container">
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>JAVA</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>SPRING</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>SPRING BOOT</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>SERVLETS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>MY SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>GIT</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./asserts//checkmark.png" 
+              alt="skills icon"
+              class="icon"
+              >
+              <div>
+                <h3>JUnit</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <img 
+      src="./asserts/arrow.png" 
+      alt="arrow png"
+      class="icon arrow-icon"
+      onclick="location.href='./#Projects'">
+
+  </section>
+
+<section id="projects">
+  
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="skill-details-container">
+    <div class="about-container">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./asserts//youtube.jpeg"
+          alt="project 1"
+          class="project-img"
+          >
+        </div>
+        <h2 class="skill-sub-title project-title">Project One</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/patanakramullakhan'">
+            GitHub
+          </button>
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://patanakramullakhan.github.io/youtube-clone/'">
+            Live Demo
+          </button>
+          
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./asserts//rps.jpg"
+          alt="project 1"
+          class="project-img"
+          >
+        </div>
+        <h2 class="skill-sub-title project-title">Project Two</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/patanakramullakhan'">
+            GitHub
+          </button>
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://patanakramullakhan.github.io/rock-paper-scissor/'">
+            Live Demo
+          </button>
+          
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./asserts//bank.jpeg"
+          alt="project 1"
+          class="project-img"
+          >
+        </div>
+        <h2 class="skill-sub-title project-title">Project Three</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/patanakramullakhan'">
+            GitHub
+          </button>
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/patanakramullakhan'">
+            Live Demo
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <img 
+      src="./asserts/arrow.png" 
+      alt="arrow png"
+      class="icon arrow-icon"
+      onclick="location.href='./#contact'"
+  />
+</section>
+
+<section id="contact">
+  <p class="section__text__p1">Get In Touch</p>
+  <h1 class="title">Contact me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="./asserts/email.png" 
+      alt="email pic"
+      class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:roshanakram34@gmail.com">roshanakram34@gmail.com</a></p> 
+    </div>
+    <div class="contact-info-container">
+      <img src="./asserts/linkedin.png" 
+      alt="linkedin pic"
+      class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/patan-akramulla-khan-a905901b6/" class="">LinkediIn</a></p> 
+    </div>
+
+  </div>
+</section>
+  
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Akram .All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
